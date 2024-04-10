@@ -7,10 +7,12 @@ spec:
   selector:
     matchLabels:
       app: app-2
+      run: app-2-svc
   template:
     metadata:
       labels:
         app: app-2
+        run: app-2-svc
     spec:
       containers:
       - name: app-2
