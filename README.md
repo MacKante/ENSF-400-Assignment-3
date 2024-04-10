@@ -30,3 +30,12 @@ kubectl apply -f app-2-dep.yaml
 kubectl apply -f app-2-svc.yaml
 kubectl apply -f app-2-ingress.yaml
 ```
+
+---
+
+## Curl
+```
+curl http://$(minikube ip)/
+```
+
+Note: You may have to wait a little for it to properly set up
